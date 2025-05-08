@@ -9,8 +9,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-xl font-medium font-serif mb-4">Virginia Casale</h3>
-            <p className="mb-2">Psicologa e psicoterapeuta ad orientamento analitico</p>
-            <p className="italic">Un approccio umano per accompagnarti nel tuo percorso di benessere</p>
+            <p className="mb-2"><strong>Psicologa</strong> e <strong>psicoterapeuta</strong> ad orientamento analitico</p>
+            <p className="italic">Un approccio <strong>umano</strong> per accompagnarti nel tuo percorso di <strong>benessere</strong></p>
           </div>
           
           <div>
@@ -19,7 +19,7 @@ const Footer = () => {
               <li className="flex items-start">
                 <MapPin size={20} className="mr-2 mt-1 flex-shrink-0" />
                 <div>
-                  <p>Torino, Pinerolo, Candiolo</p>
+                  <p><strong>Torino</strong>, <strong>Pinerolo</strong>, <strong>Candiolo</strong></p>
                 </div>
               </li>
               <li className="flex items-center">
@@ -32,7 +32,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Clock size={20} className="mr-2 flex-shrink-0" />
-                <p>Su appuntamento</p>
+                <p>Su <strong>appuntamento</strong></p>
               </li>
             </ul>
           </div>
@@ -60,8 +60,8 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-white/30 mt-8 pt-6 text-center text-sm">
-          <p>&copy; {new Date().getFullYear()} - Dr.ssa Virginia Casale - Tutti i diritti riservati</p>
-          <p className="mt-1">P.IVA: XXXXXXXXXX - Iscrizione all'Albo degli Psicologi N° XXXX</p>
+          <p>&copy; {new Date().getFullYear()} - <strong>Dr.ssa Virginia Casale</strong> - Tutti i diritti riservati</p>
+          <p className="mt-1">P.IVA: XXXXXXXXXX - Iscrizione all'<strong>Albo degli Psicologi</strong> N° XXXX</p>
         </div>
       </div>
     </footer>

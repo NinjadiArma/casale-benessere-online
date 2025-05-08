@@ -26,7 +26,7 @@ const ComeLavoro = () => {
           </h1>
           <div className="max-w-3xl mx-auto text-center">
             <p className="text-lg text-gray-700">
-              La mia modalità di lavoro e la mia idea di Psicoanalisi
+              La mia <strong>modalità di lavoro</strong> e la mia idea di <strong>Psicoanalisi</strong>
             </p>
           </div>
         </div>
@@ -37,7 +37,7 @@ const ComeLavoro = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <p className="text-gray-700 mb-8">
-              Nelle pagine seguenti trovate alcuni spunti per approfondire la mia modalità di lavoro e la mia idea di Psicoanalisi
+              Nelle pagine seguenti trovate alcuni spunti per approfondire la mia <strong>modalità di lavoro</strong> e la mia idea di <strong>Psicoanalisi</strong>
             </p>
 
             <div className="space-y-6 mb-12">
@@ -50,7 +50,7 @@ const ComeLavoro = () => {
                   <div className="flex items-center">
                     <BookOpen className="mr-3 text-theme-teal" size={20} />
                     <h3 className="text-xl font-serif font-medium text-theme-teal text-left">
-                      Che cosa significa guarire?
+                      Che cosa significa <strong>guarire</strong>?
                     </h3>
                   </div>
                   {openSection1 ? 
@@ -60,7 +60,7 @@ const ComeLavoro = () => {
                 </CollapsibleTrigger>
                 <CollapsibleContent className="p-6 bg-white">
                   <p className="text-gray-700">
-                    Per la medicina si è sempre trattato di compensare una mancanza o un eccesso...
+                    Per la medicina si è sempre trattato di compensare una <strong>mancanza</strong> o un <strong>eccesso</strong>...
                   </p>
                 </CollapsibleContent>
               </Collapsible>
@@ -74,7 +74,7 @@ const ComeLavoro = () => {
                   <div className="flex items-center">
                     <BookOpen className="mr-3 text-theme-teal" size={20} />
                     <h3 className="text-xl font-serif font-medium text-theme-teal text-left">
-                      Come opera la Psicoanalisi?
+                      Come opera la <strong>Psicoanalisi</strong>?
                     </h3>
                   </div>
                   {openSection2 ? 
@@ -84,7 +84,7 @@ const ComeLavoro = () => {
                 </CollapsibleTrigger>
                 <CollapsibleContent className="p-6 bg-white">
                   <p className="text-gray-700">
-                    LA PSICOANALISI, misurandosi quotidianamente con disagi tradizionali e nuovi, si fonda sul desiderio di ricollegare il soggetto con il suo inconscio....
+                    LA <strong>PSICOANALISI</strong>, misurandosi quotidianamente con <strong>disagi</strong> tradizionali e nuovi, si fonda sul <strong>desiderio</strong> di ricollegare il <strong>soggetto</strong> con il suo <strong>inconscio</strong>....
                   </p>
                 </CollapsibleContent>
               </Collapsible>
@@ -107,7 +107,7 @@ const ComeLavoro = () => {
                   <div className="flex items-center">
                     <BookOpen className="mr-3 text-theme-teal" size={20} />
                     <h3 className="text-xl font-serif font-medium text-theme-teal text-left">
-                      Caratteristiche principali del mio Orientamento
+                      Caratteristiche <strong>principali</strong> del mio Orientamento
                     </h3>
                   </div>
                   {openSection3 ? 
@@ -117,7 +117,7 @@ const ComeLavoro = () => {
                 </CollapsibleTrigger>
                 <CollapsibleContent className="p-6 bg-white">
                   <p className="text-gray-700">
-                    L'orientamento teorico che guida ormai da alcuni anni il mio lavoro di psicologa...
+                    L'<strong>orientamento teorico</strong> che guida ormai da alcuni anni il mio lavoro di psicologa...
                   </p>
                 </CollapsibleContent>
               </Collapsible>
@@ -131,7 +131,7 @@ const ComeLavoro = () => {
                   <div className="flex items-center">
                     <BookOpen className="mr-3 text-theme-teal" size={20} />
                     <h3 className="text-xl font-serif font-medium text-theme-teal text-left">
-                      Alcuni spunti di Lettura
+                      Alcuni spunti di <strong>Lettura</strong>
                     </h3>
                   </div>
                   {openSection4 ? 
@@ -141,7 +141,7 @@ const ComeLavoro = () => {
                 </CollapsibleTrigger>
                 <CollapsibleContent className="p-6 bg-white">
                   <p className="text-gray-700">
-                    Per chi ha voglia e tempo di leggere...
+                    Per chi ha <strong>voglia</strong> e <strong>tempo</strong> di leggere...
                   </p>
                 </CollapsibleContent>
               </Collapsible>
@@ -158,7 +158,7 @@ const ComeLavoro = () => {
               Vuoi scoprire di più sui miei servizi?
             </h2>
             <p className="text-gray-700 mb-8">
-              Esplora i servizi che offro e scopri come posso aiutarti nel tuo percorso di benessere.
+              Esplora i servizi che offro e scopri come posso aiutarti nel tuo <strong>percorso di benessere</strong>.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 
