@@ -45,20 +45,72 @@ const ChiSono = () => {
           </div>
 
           <div className="max-w-4xl mx-auto">
-            <h3 className="text-2xl font-serif font-medium text-theme-teal mb-6">Il mio percorso</h3>
+            <h3 className="text-2xl font-serif font-medium text-theme-teal mb-6">Il mio percorso formativo</h3>
             <p className="text-gray-700 mb-4">
-              La mia formazione professionale è arricchita da esperienze in diversi contesti clinici: ho lavorato in carceri, strutture 
-              psichiatriche, scuole e centri per anziani, affrontando problematiche complesse e sviluppando un approccio terapeutico 
-              flessibile e personalizzato.
+              Dopo essermi diplomata presso il liceo classico S.Giuseppe di Rivoli, ho conseguito la laurea presso la facoltà di Psicologia a Torino nel 1999.
             </p>
             <p className="text-gray-700 mb-4">
-              Oltre all'attività clinica, ho esperienza nell'insegnamento in ambito aziendale e scolastico, e offro supervisione 
-              professionale a operatori sanitari e sociali a rischio di burnout.
+              Mi sono poi specializzata in psicoterapia ad indirizzo psicoanalitico presso l'Istituto Freudiano di Roma.
+            </p>
+            
+            <h3 className="text-2xl font-serif font-medium text-theme-teal mb-6 mt-8">Esperienze di volontariato</h3>
+            <p className="text-gray-700 mb-4">
+              Durante il periodo universitario mi sono occupata di colloqui di sostegno per soggetti detenuti presso la casa circondariale delle Vallette di Torino e ho fatto parte dei Gruppi di volontariato Vincenziano di Torino dove offrivo aiuto a persone senza fissa dimora, sole, con problemi psichici.
+            </p>
+            <p className="text-gray-700 mb-4">
+              Sono state entrambe esperienze per me estremamente ricche ed importanti dal punto di vista umano e relazionale.
+            </p>
+            <p className="text-gray-700 mb-4">
+              Sono state soprattutto due esperienze che mi hanno portato a riflettere sul grande valore dell'ascolto dell'altro, del rispetto per la persona e che mi hanno fortemente avvicinato alla sofferenza, alla solitudine, al disagio mentale.
+            </p>
+
+            <h3 className="text-2xl font-serif font-medium text-theme-teal mb-6 mt-8">Esperienza professionale</h3>
+            <p className="text-gray-700 mb-4">
+              Dopo la laurea ho lavorato nell'ambito delle tossicodipendenze: sono stata operatrice in un centro residenziale per tossicodipendenti di Leinì per la Coop. Animazione Valdocco.
+              Esperienza per me molto forte, impegnativa e dal valore umano ineguagliabile.
+            </p>
+            <p className="text-gray-700 mb-4">
+              Ho lavorato ad Orbassano in un centro diurno per utenti tossicodipendenti.
+            </p>
+            <p className="text-gray-700 mb-4">
+              Ho maturato esperienza in ambito psichiatrico presso un centro diurno di Rivalta.
+            </p>
+            <p className="text-gray-700 mb-4">
+              Ho svolto negli anni successivi attività di sostegno e supporto a soggetti con handicap fisico, intellettivo e psichico presso alcune scuole elementari, medie e istituti superiori del Comune di Torino.
+            </p>
+
+            <div className="my-10 flex justify-center">
+              <img 
+                src="/lovable-uploads/53a5b39c-687f-4ed9-ad8c-dda8cc3de173.png" 
+                alt="Dipinto di Donna che odora Rose" 
+                className="rounded-lg shadow-md max-w-full md:max-w-lg"
+              />
+              <p className="text-sm text-gray-500 mt-2 text-center italic">Dipinto di Donna che odora Rose</p>
+            </div>
+
+            <p className="text-gray-700 mb-4">
+              Per diversi anni, oltre all'attività di psicologa-psicoterapeuta in Torino, Pinerolo, Candiolo, ho svolto anche attività di docenza presso alcuni enti formativi di Torino e Milano.
+            </p>
+            <p className="text-gray-700 mb-4">
+              Mi sono occupata di formazione in ambito psicologico per operatori sanitari e per soggetti con disabilità di vario genere.
+            </p>
+            <p className="text-gray-700 mb-4">
+              Per alcune aziende (Giordano Vini, Eataly) ho svolto attività di docenza sulla comunicazione/relazione con il cliente per operatori call-center e per addetti ai servizi enogastronomici.
+            </p>
+            <p className="text-gray-700 mb-4">
+              Mi sono occupata di orientamento per neolaureati in cerca di prima occupazione.
+            </p>
+            <p className="text-gray-700 mb-4">
+              Per un Ente formativo di Torino (ENGIM) ho svolto per anni attività di sostegno psicologico per genitori di ragazzi in fascia adolescenziale (14-18 anni): sostegno individuale e gruppi di incontro.
+            </p>
+            <p className="text-gray-700 mb-4">
+              Ho lavorato anche come coordinatrice stage e orientatrice per l'Ente formativo Casa di Carità Arti e Mestieri di Torino.
+            </p>
+            <p className="text-gray-700 mb-4">
+              Per alcuni anni ho svolto l'attività di psicologa presso alcune strutture per anziani (Vinovo, Piobesi Torinese, Grana (AT) e Rocchetta Tanaro) dove mi sono occupata di sostegno agli ospiti, ai loro familiari e al personale.
             </p>
             <p className="text-gray-700 mb-8">
-              Credo fermamente nel valore della formazione continua e dell'aggiornamento professionale, per questo partecipo regolarmente 
-              a corsi di perfezionamento e congressi, al fine di offrire ai miei pazienti interventi basati sulle più recenti evidenze 
-              scientifiche.
+              In ambito clinico/privato mi occupo di bambini, adolescenti, adulti e di terapia di coppia: tratto il disagio mentale, depressioni, ansie, disturbi legati a uso di sostanze, difficoltà nella sfera sessuale, difficoltà legate a separazioni, lutti.
             </p>
 
             <h3 className="text-2xl font-serif font-medium text-theme-teal mb-6">Le mie aree di specializzazione</h3>
@@ -76,10 +128,9 @@ const ChiSono = () => {
 
             <h3 className="text-2xl font-serif font-medium text-theme-teal mb-6">Formazione e titoli</h3>
             <ul className="list-disc pl-5 space-y-2 text-gray-700 mb-8">
-              <li>Laurea in Psicologia - Università degli Studi di Torino</li>
-              <li>Specializzazione in Psicoterapia ad orientamento analitico</li>
+              <li>Laurea in Psicologia - Università degli Studi di Torino (1999)</li>
+              <li>Specializzazione in Psicoterapia ad orientamento psicoanalitico - Istituto Freudiano di Roma</li>
               <li>Iscrizione all'Albo degli Psicologi del Piemonte n° XXXX</li>
-              <li>Master in Psicologia Clinica</li>
               <li>Formazione specifica in Musicoterapia</li>
             </ul>
           </div>
@@ -132,6 +183,15 @@ const ChiSono = () => {
               >
                 <Link to="/contatti">
                   Contattami
+                </Link>
+              </Button>
+              <Button 
+                asChild
+                variant="outline" 
+                className="border-theme-teal text-theme-teal hover:bg-theme-teal hover:text-white"
+              >
+                <Link to="/come-lavoro">
+                  Come Lavoro
                 </Link>
               </Button>
             </div>

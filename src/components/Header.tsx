@@ -29,6 +29,9 @@ const Header = () => {
             <Link to="/servizi" className="text-gray-700 hover:text-theme-teal font-medium transition-colors">
               Servizi
             </Link>
+            <Link to="/come-lavoro" className="text-gray-700 hover:text-theme-teal font-medium transition-colors">
+              Come Lavoro
+            </Link>
             <Link to="/contatti" className="text-gray-700 hover:text-theme-teal font-medium transition-colors">
               Contatti
             </Link>
@@ -65,6 +68,13 @@ const Header = () => {
               onClick={() => setIsMenuOpen(false)}
             >
               Servizi
+            </Link>
+            <Link 
+              to="/come-lavoro"
+              className="block text-gray-700 hover:text-theme-teal font-medium transition-colors"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Come Lavoro
             </Link>
             <Link 
               to="/contatti"
