@@ -19,12 +19,26 @@ const Contatti = () => {
     loading: false,
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setFormState({ ...formState, loading: true });
-    
-    // Simuliamo l'invio del messaggio
-    setTimeout(() => {
+const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+  setFormState({ ...formState, loading: true });
+
+  try {
+    const response = await fetch("https://formspree.io/f/movdwovo", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: JSON.stringify({
+        nome: formState.nome,
+        email: formState.email,
+        telefono: formState.telefono,
+        messaggio: formState.messaggio,
+      }),
+    });
+
+    if (response.ok) {
       setFormState({
         nome: "",
         email: "",
@@ -33,13 +47,28 @@ const Contatti = () => {
         submitted: true,
         loading: false,
       });
-      
+
       toast({
         title: "Messaggio inviato!",
         description: "Grazie per avermi contattato. Ti risponderò al più presto.",
       });
-    }, 1000);
-  };
+    } else {
+      toast({
+        title: "Errore",
+        description: "Si è verificato un errore nell'invio del messaggio.",
+        variant: "destructive",
+      });
+      setFormState({ ...formState, loading: false });
+    }
+  } catch (error) {
+    toast({
+      title: "Errore di rete",
+      description: "Controlla la connessione e riprova.",
+      variant: "destructive",
+    });
+    setFormState({ ...formState, loading: false });
+  }
+};
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
