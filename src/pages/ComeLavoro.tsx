@@ -89,15 +89,6 @@ const ComeLavoro = () => {
                 </CollapsibleContent>
               </Collapsible>
 
-              <div className="my-10 flex flex-col items-center">
-                <img 
-                  src="/lovable-uploads/c7a68cfe-4478-4d69-9fb6-9b61b16541fb.png" 
-                  alt="prova immagine" 
-                  className="rounded-lg shadow-md max-w-full md:max-w-lg"
-                />
-                <p className="text-sm text-gray-500 mt-2 italic">prova immagine</p>
-              </div>
-
               <Collapsible 
                 open={openSection3} 
                 onOpenChange={setOpenSection3}
